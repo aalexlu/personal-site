@@ -26,9 +26,8 @@ class App extends Component {
       ],
       home: {
         title: "alexandra lu",
-        subTitle: "About Me",
-        text:
-          "Hi! I'm Alex, a developer based in the bay area who loves writing code to solve problems! I am a sophomore studying Computer Science at UC Berkeley. In my free time, I love to bike and work on 3D modeling projects!",
+        subTitle: "“Do what you can, with what you have, where you are.”",
+        text: "-Theodore Roosevelt",
       },
       work: {
         title: "projects",
@@ -36,7 +35,9 @@ class App extends Component {
         text: "-Benjamin Franklin",
       },
       courses: {
-        title: "coursework",
+        title: "courses",
+        subTitle: '"Learn as if you were to live forever."',
+        text: "-Mahatma Gandhi",
       },
       resume: {
         title: "resume",
@@ -52,7 +53,8 @@ class App extends Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>alexandra lu</Navbar.Brand>
+            <Navbar.Brand> </Navbar.Brand>
+            {/* previously alexandra lu */}
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
@@ -98,7 +100,13 @@ class App extends Component {
           />
           <Route
             path="/courses"
-            render={() => <CoursesPage title={this.state.courses.title} />}
+            render={() => (
+              <CoursesPage
+                title={this.state.courses.title}
+                subTitle={this.state.courses.subTitle}
+                text={this.state.courses.text}
+              />
+            )}
           />
           <Route
             path="/resume"
