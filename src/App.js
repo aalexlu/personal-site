@@ -32,8 +32,8 @@ class App extends Component {
       },
       work: {
         title: "projects",
-        subTitle: "work that makes a difference",
-        text: "check out my projects",
+        subTitle: '"You can do anything you set your mind to."',
+        text: "-Benjamin Franklin",
       },
       courses: {
         title: "coursework",
