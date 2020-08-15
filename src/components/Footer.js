@@ -12,7 +12,7 @@ function Footer() {
             alexandra lu
           </Col>
           <Col className="p-0 d-flex justify-content-end" md={3}>
-            This site was made by Alexandra Lu.
+            welcome to my website! feel free to look around
           </Col>
         </Row>
       </Container>

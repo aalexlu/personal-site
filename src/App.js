@@ -18,7 +18,7 @@ class App extends Component {
     this.state = {
       title: "alexandra lu",
       headerLinks: [
-        { title: "Home", path: "/" }, //About
+        { title: "About", path: "/" }, //About
         { title: "Work", path: "/work" },
         { title: "Courses", path: "/courses" },
         { title: "Resume", path: "/resume" },
@@ -26,11 +26,14 @@ class App extends Component {
       ],
       home: {
         title: "alexandra lu",
-        subTitle: "hmm",
-        text: "welcome to my website! feel free to look around",
+        subTitle: "About Me",
+        text:
+          "Hi! I'm Alex, a developer based in the bay area who loves writing code to solve problems! I am a sophomore studying Computer Science at UC Berkeley. In my free time, I love to bike and work on 3D modeling projects!",
       },
       work: {
         title: "projects",
+        subTitle: "work that makes a difference",
+        text: "check out my projects",
       },
       courses: {
         title: "coursework",
@@ -50,12 +53,11 @@ class App extends Component {
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>alexandra lu</Navbar.Brand>
-
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">
-                  Home
+                  About
                 </Link>
                 <Link className="nav-link" to="/work">
                   Work
@@ -76,26 +78,34 @@ class App extends Component {
           <Route
             path="/"
             exact
-            render={() => <HomePage title={this.state.home.title} />}
+            render={() => (
+              <HomePage
+                title={this.state.home.title}
+                subTitle={this.state.home.subTitle}
+                text={this.state.home.text}
+              />
+            )}
           />
           <Route
             path="/work"
-            exact
-            render={() => <WorkPage title={this.state.work.title} />}
+            render={() => (
+              <WorkPage
+                title={this.state.work.title}
+                subTitle={this.state.work.subTitle}
+                text={this.state.work.text}
+              />
+            )}
           />
           <Route
             path="/courses"
-            exact
             render={() => <CoursesPage title={this.state.courses.title} />}
           />
           <Route
             path="/resume"
-            exact
             render={() => <ResumePage title={this.state.resume.title} />}
           />
           <Route
             path="/contact"
-            exact
             render={() => <ContactPage title={this.state.contact.title} />}
           />
 
