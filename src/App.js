@@ -10,7 +10,7 @@ import HomePage from "./pages/HomePage";
 import WorkPage from "./pages/WorkPage";
 import CoursesPage from "./pages/CoursesPage";
 import ResumePage from "./pages/ResumePage";
-import ContactPage from "./pages/ContactPage";
+import ContactPage2 from "./pages/ContactPage2";
 
 class App extends Component {
   constructor(props) {
@@ -43,7 +43,7 @@ class App extends Component {
         title: "resume",
       },
       contact: {
-        title: "let's talk",
+        title: "let's connect",
       },
     };
   }
@@ -114,7 +114,7 @@ class App extends Component {
           />
           <Route
             path="/contact"
-            render={() => <ContactPage title={this.state.contact.title} />}
+            render={() => <ContactPage2 title={this.state.contact.title} />}
           />
 
           <Footer />

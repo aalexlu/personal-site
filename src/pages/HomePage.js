@@ -36,6 +36,9 @@ function HomePage(props) {
           {/* it would be cool to pop in images for each word clicked on! */}
         </p>
         <p>Anyways welcome to my website ~ Feel free to take a look around! </p>
+        <div>
+          <p> </p>
+        </div>
       </Content>
     </div>
   );

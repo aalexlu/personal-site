@@ -17,7 +17,7 @@ function Hero(props) {
               <h3 className="a-hero-quote">{props.subTitle}</h3> //was display-4 font-weight-light
             )}
             {props.text && (
-              <h3 className="lead font-weight-light">{props.text}</h3>
+              <h3 className="a-hero-name">{props.text}</h3> //lead font-weight-light
             )}
           </Col>
         </Row>
