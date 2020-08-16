@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41652729.chunk.css",
+    "main.js": "/static/js/main.812993a3.chunk.js",
+    "main.js.map": "/static/js/main.812993a3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.71f1c705.chunk.js": "/static/js/2.71f1c705.chunk.js",
+    "static/js/2.71f1c705.chunk.js.map": "/static/js/2.71f1c705.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cc7f75e175e2230f2b93ad7ecec05313.js": "/precache-manifest.cc7f75e175e2230f2b93ad7ecec05313.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.41652729.chunk.css.map": "/static/css/main.41652729.chunk.css.map",
+    "static/js/2.71f1c705.chunk.js.LICENSE.txt": "/static/js/2.71f1c705.chunk.js.LICENSE.txt",
+    "static/media/dosage.png": "/static/media/dosage.3ae04277.png",
+    "static/media/questions.png": "/static/media/questions.fe2b8126.png",
+    "static/media/resume.png": "/static/media/resume.529e3f74.png",
+    "static/media/website.png": "/static/media/website.65dd327e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c9c41ef.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.71f1c705.chunk.js",
+    "static/css/main.41652729.chunk.css",
+    "static/js/main.812993a3.chunk.js"
+  ]
+}
