@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-function Hero(props) {
+function HeroLink(props) {
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
       <Container fluid={true}>
@@ -12,7 +12,14 @@ function Hero(props) {
           <Col md={8} sm={12}>
             {props.title && <h1 className="a-hero-title">{props.title}</h1>}
             {props.subTitle && (
-              <h3 className="a-hero-quote">{props.subTitle}</h3> //was display-4 font-weight-light
+              <a
+                className="a-hero-quote"
+                href={
+                  "https://drive.google.com/file/d/1zbjOJx9RpUpHXV8d-mFLPLq4zpAIRQEQ/view?usp=sharing"
+                }
+              >
+                {props.subTitle}
+              </a> //was display-4 font-weight-light
             )}
             {props.text && (
               <h3 className="a-hero-name">{props.text}</h3> //lead font-weight-light
@@ -24,4 +31,4 @@ function Hero(props) {
   );
 }
 
-export default Hero;
+export default HeroLink;

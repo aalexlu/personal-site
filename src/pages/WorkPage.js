@@ -5,7 +5,7 @@ import Carousel from "../components/Carousel";
 
 function WorkPage(props) {
   return (
-    <div>
+    <div className="a-carousel">
       <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
       <Carousel />
     </div>

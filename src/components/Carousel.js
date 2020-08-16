@@ -23,7 +23,7 @@ class Carousel extends React.Component {
         },
         {
           id: 1,
-          title: "Website",
+          title: "Personal Website",
           subTitle: "the website you see here!",
           imgSrc: website,
           link: "", //TODO alexandralu.com

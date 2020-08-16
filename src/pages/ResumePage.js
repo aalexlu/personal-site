@@ -1,9 +1,15 @@
 import React from "react";
 
-import Hero from "../components/Hero";
+import HeroLink from "../components/HeroLink";
+import Document from "../components/Document";
 
 function ResumePage(props) {
-  return <Hero title={props.title} />;
+  return (
+    <div className="a-document">
+      <HeroLink title={props.title} subTitle={props.subTitle} />
+      <Document />
+    </div>
+  );
 }
 
 export default ResumePage;

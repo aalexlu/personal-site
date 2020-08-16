@@ -41,6 +41,7 @@ class App extends Component {
       },
       resume: {
         title: "resume",
+        subTitle: "Download Here",
       },
       contact: {
         title: "let's connect",
@@ -50,76 +51,86 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
-        <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand> </Navbar.Brand>
-            {/* previously alexandra lu */}
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
-                <Link className="nav-link" to="/">
-                  About
-                </Link>
-                <Link className="nav-link" to="/work">
-                  Work
-                </Link>
-                <Link className="nav-link" to="/courses">
-                  Courses
-                </Link>
-                <Link className="nav-link" to="/resume">
-                  Resume
-                </Link>
-                <Link className="nav-link" to="/contact">
-                  Contact
-                </Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+      <div className="a-page">
+        <Router>
+          <Container className="p-0" fluid={true}>
+            <Navbar className="border-bottom" bg="transparent" expand="lg">
+              <Navbar.Brand> </Navbar.Brand>
+              {/* previously alexandra lu */}
+              <Navbar.Toggle
+                className="border-0"
+                aria-controls="navbar-toggle"
+              />
+              <Navbar.Collapse id="navbar-toggle">
+                <Nav className="ml-auto">
+                  <Link className="nav-link" to="/">
+                    About
+                  </Link>
+                  <Link className="nav-link" to="/work">
+                    Work
+                  </Link>
+                  <Link className="nav-link" to="/courses">
+                    Courses
+                  </Link>
+                  <Link className="nav-link" to="/resume">
+                    Resume
+                  </Link>
+                  <Link className="nav-link" to="/contact">
+                    Contact
+                  </Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
 
-          <Route
-            path="/"
-            exact
-            render={() => (
-              <HomePage
-                title={this.state.home.title}
-                subTitle={this.state.home.subTitle}
-                text={this.state.home.text}
-              />
-            )}
-          />
-          <Route
-            path="/work"
-            render={() => (
-              <WorkPage
-                title={this.state.work.title}
-                subTitle={this.state.work.subTitle}
-                text={this.state.work.text}
-              />
-            )}
-          />
-          <Route
-            path="/courses"
-            render={() => (
-              <CoursesPage
-                title={this.state.courses.title}
-                subTitle={this.state.courses.subTitle}
-                text={this.state.courses.text}
-              />
-            )}
-          />
-          <Route
-            path="/resume"
-            render={() => <ResumePage title={this.state.resume.title} />}
-          />
-          <Route
-            path="/contact"
-            render={() => <ContactPage2 title={this.state.contact.title} />}
-          />
+            <Route
+              path="/"
+              exact
+              render={() => (
+                <HomePage
+                  title={this.state.home.title}
+                  subTitle={this.state.home.subTitle}
+                  text={this.state.home.text}
+                />
+              )}
+            />
+            <Route
+              path="/work"
+              render={() => (
+                <WorkPage
+                  title={this.state.work.title}
+                  subTitle={this.state.work.subTitle}
+                  text={this.state.work.text}
+                />
+              )}
+            />
+            <Route
+              path="/courses"
+              render={() => (
+                <CoursesPage
+                  title={this.state.courses.title}
+                  subTitle={this.state.courses.subTitle}
+                  text={this.state.courses.text}
+                />
+              )}
+            />
+            <Route
+              path="/resume"
+              render={() => (
+                <ResumePage
+                  title={this.state.resume.title}
+                  subTitle={this.state.resume.subTitle}
+                />
+              )}
+            />
+            <Route
+              path="/contact"
+              render={() => <ContactPage2 title={this.state.contact.title} />}
+            />
 
-          <Footer />
-        </Container>
-      </Router>
+            <Footer className="a-footer" />
+          </Container>
+        </Router>
+      </div>
     );
   }
 }

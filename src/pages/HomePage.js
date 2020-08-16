@@ -31,11 +31,11 @@ function HomePage(props) {
           here.
         </p>
         <p>
-          If I'm not hacking away on my computer, chances are that I'm biking,
-          3D modeling, or playing with my cat, Tomato.{" "}
+          If I'm not studying or hacking away on my computer, chances are that
+          I'm biking, 3D modeling, or playing with my cat, Tomato.{" "}
           {/* it would be cool to pop in images for each word clicked on! */}
         </p>
-        <p>Anyways welcome to my website ~ Feel free to take a look around! </p>
+        <p>Anyways welcome to my website ~ feel free to take a look around! </p>
         <div>
           <p> </p>
         </div>
