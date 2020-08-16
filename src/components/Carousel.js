@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/container";
-import Row from "react-bootstrap/Row";
+import Row from "react-bootstrap/row";
 
 import Card from "../components/Card";
 
@@ -16,7 +16,7 @@ class Carousel extends React.Component {
         {
           id: 0,
           title: "Dosage",
-          subTitle: "iOS application to monitor substances", //the usage and effects of medication and substances to provide data to regulate then fine-tune dosage",
+          subTitle: "regulate & fine-tune dosage", //the usage and effects of medication and substances to provide data to regulate then fine-tune dosage",
           imgSrc: dosage,
           link: "", //TODO insert figma
           selected: false,
@@ -32,7 +32,7 @@ class Carousel extends React.Component {
         {
           id: 2,
           title: "Questions?",
-          subTitle: "streamline the process of asking questions", //during lecture by allowing attendees to use their smartphones as a microphone",
+          subTitle: "streamline question asking", //during lecture by allowing attendees to use their smartphones as a microphone",
           imgSrc: questions,
           link: "https://github.com/Stanford-Treehacks-2020",
           selected: false,

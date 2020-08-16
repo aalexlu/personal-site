@@ -31,13 +31,13 @@ class App extends Component {
       },
       work: {
         title: "projects",
-        subTitle: '"You can do anything you set your mind to."',
-        text: "-Benjamin Franklin",
+        subTitle: "“Nothing will work unless you do.”",
+        text: "-Maya Angelou",
       },
       courses: {
         title: "courses",
-        subTitle: '"Learn as if you were to live forever."',
-        text: "-Mahatma Gandhi",
+        subTitle: "“The important thing is to not stop questioning.”",
+        text: "-Albert Einstein",
       },
       resume: {
         title: "resume",

@@ -24,18 +24,18 @@ function HomePage(props) {
           running the world's largest collegiate hackathon. With COVID-19 we are
           redirecting our efforts toward other initiatives so be on the lookout! */}
         </p>
-        <p>
+        {/* <p>
           My latest project, Dosage, is an iOS application to monitor the usage
           of medication and substances to provide the user with data to
           regulate, then fine-tune dosage. You can check out the base concept
           here.
-        </p>
+        </p> */}
         <p>
           If I'm not studying or hacking away on my computer, chances are that
-          I'm biking, 3D modeling, or playing with my cat, Tomato.{" "}
+          I'm cycling, 3D modeling, or playing with my cat, Tomato.{" "}
           {/* it would be cool to pop in images for each word clicked on! */}
         </p>
-        <p>Anyways welcome to my website ~ feel free to take a look around! </p>
+        <p>Welcome to my website ~ feel free to take a look around! </p>
         <div>
           <p> </p>
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/form";
+import Button from "react-bootstrap/button";
 import Axios from "axios";
 
 import Hero from "../components/Hero";

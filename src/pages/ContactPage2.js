@@ -1,26 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 
 import Hero from "../components/Hero";
+import Content from "../components/Content";
 
-class ContactPage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-      disabled: false,
-      emailSent: null,
-    };
-  }
+function ContactPage2(props) {
+  return (
+    <div>
+      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
 
-  render() {
-    return (
-      <div>
-        <Hero title={this.props.title} />
-      </div>
-    );
-  }
+      <Content>
+        <p>(replace with icons and links and sendgrid??)</p>
+        <p>email form</p>
+        <p>linkedin.com/in/aalexlu</p>
+        <p>github.com/aalexlu</p>
+      </Content>
+    </div>
+  );
 }
 
-export default ContactPage;
+export default ContactPage2;
