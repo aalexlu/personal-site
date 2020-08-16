@@ -1,8 +1,8 @@
 import React from "react";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Jumbotron from "react-bootstrap/jumbotron";
+import Container from "react-bootstrap/container";
+import Row from "react-bootstrap/row";
+import Col from "react-bootstrap/col";
 
 function HeroLink(props) {
   return (

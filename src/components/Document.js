@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/container";
+import Row from "react-bootstrap/row";
 
 import resume from "../assets/images/resume.png";
 
