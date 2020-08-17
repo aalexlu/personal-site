@@ -12,6 +12,13 @@ code {
     monospace;
 } */
 
+#nav-link {
+  color: #aeaca5;
+}
+#nav-link:hover {
+  color: #4a685a;
+}
+
 .a-card {
   margin: 0px;
   padding: 0px 0px 100px 0px;
@@ -193,6 +200,18 @@ code {
 
 .carousel-caption a {
   color: #f5a0a0;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #cfdbd3;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #cfdbd3;
+}
+
+.carousel .carousel-indicators {
+  bottom: -50px;
 }
 
 /* .carousel-caption a {

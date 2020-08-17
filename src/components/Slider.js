@@ -4,7 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 import dosage from "../assets/images/dosage-wide.png";
 import website from "../assets/images/website-wide.png";
 import questions from "../assets/images/questions-wide.png";
-// import gitlet from "../asset/images/gitlet-wide.png";
+import gitlet from "../assets/images/gitlet-wide.png";
+import enigma from "../assets/images/enigma-wide.png";
+import loa from "../assets/images/loa-wide.png";
 
 class Slider extends React.Component {
   render() {
@@ -30,6 +32,33 @@ class Slider extends React.Component {
           <Carousel.Caption>
             <a href="https://devpost.com/software/questions" id="linkid">
               View
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className="d-block w-100" src={gitlet} alt="Gitlet" />
+          <Carousel.Caption>
+            <a href="https://www.alexandralu.com" id="linkid">
+              Request code
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className="d-block w-100" src={enigma} alt="Enigma" />
+          <Carousel.Caption>
+            <a href="https://www.alexandralu.com" id="linkid">
+              Request code
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className="d-block w-100" src={loa} alt="Line of Action" />
+          <Carousel.Caption>
+            <a href="https://www.alexandralu.com" id="linkid">
+              Request code
             </a>
           </Carousel.Caption>
         </Carousel.Item>
