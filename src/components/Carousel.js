@@ -26,15 +26,31 @@ class Carousel extends React.Component {
           title: "Personal Website",
           subTitle: "the website you see here!",
           imgSrc: website,
-          link: "", //TODO alexandralu.com
+          link: "https://alexandralu.com", //TODO alexandralu.com
           selected: false,
         },
         {
           id: 2,
+          title: "Gitlet",
+          subTitle: "version control system",
+          imgSrc: website,
+          link: "", //TODO alexandralu.com
+          selected: false,
+        },
+        {
+          id: 3,
+          title: "Enigma Machine",
+          subTitle: "an encryption simulator",
+          imgSrc: website,
+          link: "", //TODO alexandralu.com
+          selected: false,
+        },
+        {
+          id: 4,
           title: "Questions?",
           subTitle: "streamline question asking", //during lecture by allowing attendees to use their smartphones as a microphone",
           imgSrc: questions,
-          link: "https://github.com/Stanford-Treehacks-2020",
+          link: "https://devpost.com/software/questions",
           selected: false,
         },
       ],

@@ -14,8 +14,9 @@ function HeroLink(props) {
             {props.subTitle && (
               <a
                 className="a-hero-quote"
+                id="linkid2"
                 href={
-                  "https://drive.google.com/file/d/1zbjOJx9RpUpHXV8d-mFLPLq4zpAIRQEQ/view?usp=sharing"
+                  "https://drive.google.com/file/d/1CoTo_biVN5GyP7uWJ-7VUb75RxCbPcF1/view?usp=sharing"
                 }
               >
                 {props.subTitle}

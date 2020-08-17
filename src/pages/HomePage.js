@@ -12,14 +12,20 @@ function HomePage(props) {
         <p>
           {" "}
           Hello! I'm Alex, a web and mobile developer based in the Bay Area who
-          simply loves building :-) I am a sophomore studying Computer Science
-          at UC Berkeley, and the intersection between tech, business, and
-          design excites me!
+          simply loves{" "}
+          <a href="/work" id="linkid">
+            building
+          </a>{" "}
+          :-) I am a sophomore studying Computer Science at UC Berkeley, and the
+          intersection between tech, business, and design excites me!
           {/* mention linguistics? */}
         </p>
         <p>
-          Currently, I am working as a director on the Cal Hacks team, working
-          on side projects, & looking for future internships.
+          Currently, I am working as a director on the{" "}
+          <a href="https://calhacks.io" id="linkid">
+            Cal Hacks
+          </a>{" "}
+          team, working on side projects, & looking for future internships.
           {/* usually
           running the world's largest collegiate hackathon. With COVID-19 we are
           redirecting our efforts toward other initiatives so be on the lookout! */}
@@ -31,8 +37,8 @@ function HomePage(props) {
           here.
         </p> */}
         <p>
-          If I'm not studying or hacking away on my computer, chances are that
-          I'm cycling, 3D modeling, or playing with my cat, Tomato.{" "}
+          If I'm not studying or working my computer, chances are that I'm
+          cycling, 3D modeling, or playing with my cat, Tomato.{" "}
           {/* it would be cool to pop in images for each word clicked on! */}
         </p>
         <p>Welcome to my website ~ feel free to take a look around! </p>

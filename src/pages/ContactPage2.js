@@ -11,9 +11,13 @@ function ContactPage2(props) {
       <Content>
         <p>(replace with icons and links and sendgrid)</p>
         <p>email form</p>
-        <a href="https://linkedin.com/in/aalexlu">LinkedIn</a>
+        <a href="https://linkedin.com/in/aalexlu" id="linkid">
+          LinkedIn
+        </a>
         <p> </p>
-        <a href="https://github.com/aalexlu">GitHub</a>
+        <a href="https://github.com/aalexlu" id="linkid">
+          GitHub
+        </a>
       </Content>
     </div>
   );
