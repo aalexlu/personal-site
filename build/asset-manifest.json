@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae6de243.chunk.css",
-    "main.js": "/static/js/main.969134a2.chunk.js",
-    "main.js.map": "/static/js/main.969134a2.chunk.js.map",
+    "main.css": "/static/css/main.47c356ff.chunk.css",
+    "main.js": "/static/js/main.f12f12b4.chunk.js",
+    "main.js.map": "/static/js/main.f12f12b4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
     "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.eed6f6e8.chunk.js": "/static/js/2.eed6f6e8.chunk.js",
-    "static/js/2.eed6f6e8.chunk.js.map": "/static/js/2.eed6f6e8.chunk.js.map",
+    "static/js/2.e32788f3.chunk.js": "/static/js/2.e32788f3.chunk.js",
+    "static/js/2.e32788f3.chunk.js.map": "/static/js/2.e32788f3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2629207b2bc5492ec059e859c723d6ac.js": "/precache-manifest.2629207b2bc5492ec059e859c723d6ac.js",
+    "precache-manifest.a00f177982086b25e5337ccaee882dc0.js": "/precache-manifest.a00f177982086b25e5337ccaee882dc0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.ae6de243.chunk.css.map": "/static/css/main.ae6de243.chunk.css.map",
-    "static/js/2.eed6f6e8.chunk.js.LICENSE.txt": "/static/js/2.eed6f6e8.chunk.js.LICENSE.txt",
-    "static/media/dosage.png": "/static/media/dosage.1ade7bde.png",
-    "static/media/questions.png": "/static/media/questions.626ba377.png",
-    "static/media/resume.png": "/static/media/resume.529e3f74.png",
-    "static/media/website.png": "/static/media/website.3a29d0c4.png"
+    "static/css/main.47c356ff.chunk.css.map": "/static/css/main.47c356ff.chunk.css.map",
+    "static/js/2.e32788f3.chunk.js.LICENSE.txt": "/static/js/2.e32788f3.chunk.js.LICENSE.txt",
+    "static/media/dosage-wide.png": "/static/media/dosage-wide.14613610.png",
+    "static/media/enigma-wide.png": "/static/media/enigma-wide.cb648dbc.png",
+    "static/media/gitlet-wide.png": "/static/media/gitlet-wide.e504c384.png",
+    "static/media/loa-wide.png": "/static/media/loa-wide.1d6d37e0.png",
+    "static/media/questions-wide.png": "/static/media/questions-wide.c00270c4.png",
+    "static/media/resume.png": "/static/media/resume.c5dc9594.png",
+    "static/media/website-wide.png": "/static/media/website-wide.95118c8c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9c9c41ef.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.eed6f6e8.chunk.js",
-    "static/css/main.ae6de243.chunk.css",
-    "static/js/main.969134a2.chunk.js"
+    "static/js/2.e32788f3.chunk.js",
+    "static/css/main.47c356ff.chunk.css",
+    "static/js/main.f12f12b4.chunk.js"
   ]
 }
