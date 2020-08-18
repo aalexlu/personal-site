@@ -13,9 +13,12 @@ code {
 } */
 
 #nav-link {
+  transition: transform 250ms;
+  display: inline-block;
   color: #aeaca5;
 }
 #nav-link:hover {
+  transform: translateY(-2px);
   color: #4a685a;
 }
 
@@ -121,6 +124,23 @@ code {
   bottom: 0;
   width: 100%;
   color: #aeaca5;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+a.social {
+  margin-left: 1.2rem;
+  transition: transform 250ms;
+  display: inline-block;
+  fill: #aeaca5;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+  fill: #4a685a;
 }
 
 .a-document {

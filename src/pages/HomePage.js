@@ -14,9 +14,9 @@ function HomePage(props) {
           Hello! I'm Alex, a web and mobile developer based in the Bay Area who
           simply loves{" "}
           <a href="/work" id="linkid">
-            building
+            building.
           </a>{" "}
-          :-) I am a sophomore studying Computer Science at UC Berkeley, and the
+          I am a sophomore studying Computer Science at UC Berkeley, and the
           intersection between tech, business, and design excites me!
           {/* mention linguistics? */}
         </p>
@@ -38,7 +38,7 @@ function HomePage(props) {
         </p> */}
         <p>
           If I'm not studying or working my computer, chances are that I'm
-          cycling, 3D modeling, or playing with my cat, Tomato.{" "}
+          cycling, 3D modeling, or spending time with my cat, Tomato.{" "}
           {/* it would be cool to pop in images for each word clicked on! */}
         </p>
         <p>Welcome to my website ~ feel free to take a look around! </p>

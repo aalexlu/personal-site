@@ -3,6 +3,12 @@ import Container from "react-bootstrap/container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
 import Emoji from "../components/Emoji";
+import Image from "react-bootstrap/image";
+
+import linkedin from "../assets/logos/linkedin.svg";
+import github from "../assets/logos/github.svg";
+import facebook from "../assets/logos/facebook.svg";
+import email from "../assets/logos/email.svg";
 
 function Footer() {
   let goodbye = "Thanks for stopping by! .";
@@ -10,11 +16,22 @@ function Footer() {
   return (
     <footer className="a-footer">
       <Container fluid={true}>
-        <Row className="border-top justify-content-between p-3">
+        <Row className="border-top justify-content-between p-2">
           <Col className="p-0" md={3} sm={12}>
-            icon links
+            <a href="https://linkedin.com/in/aalexlu" className="social">
+              <Image src={linkedin} className="icon" />
+            </a>
+            <a href="https://github.com/aalexlu" className="social">
+              <Image src={github} className="icon" />
+            </a>
+            <a href="https://www.facebook.com/aalexlu/" className="social">
+              <Image src={facebook} className="icon" />
+            </a>
+            <a href="https://github.com/aalexlu" className="social">
+              <Image src={email} className="icon" />
+            </a>
           </Col>
-          <Col className="p-0 d-flex justify-content-end" md={3}>
+          <Col className="p-1 d-flex justify-content-end" md={3} sm={12}>
             {goodbye} <Emoji symbol="👋" />
           </Col>
         </Row>
