@@ -40,6 +40,14 @@ code {
   color: #62625b;
   line-height: 30px;
   font-weight: 400;
+
+  /* font-weight: 400;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px; */
+
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
 }
 
 #linkid {
@@ -143,7 +151,7 @@ a.social:hover {
 }
 
 #linkid-tomatotext {
-  color: #f5a0a0;
+  color: #62625b;
   text-decoration: none;
 }
 

@@ -33,8 +33,13 @@ function HomePage(props) {
           <a href="https://calhacks.io" id="linkid">
             Cal Hacks
           </a>{" "}
-          team, exploring through side projects, and looking for future
-          internships.
+          team, where we're striving to form a community that fosters learning
+          and helps bring passion projects to life. Check out our
+          director-taught{" "}
+          <a href="https://calhacks.io/cubstart" id="linkid">
+            course,
+          </a>{" "}
+          along with our Hack Month initiative!
           {/* usually
           running the world's largest collegiate hackathon. With COVID-19 we are
           redirecting our efforts toward other initiatives so be on the lookout! */}
