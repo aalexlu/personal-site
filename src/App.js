@@ -124,7 +124,12 @@ class App extends Component {
             />
             <Route
               path="/contact"
-              render={() => <ContactPage2 title={this.state.contact.title} />}
+              render={() => (
+                <ContactPage2
+                  title={this.state.contact.title}
+                  subTitle={this.state.contact.subTitle}
+                />
+              )}
             />
 
             <Footer className="a-footer" />

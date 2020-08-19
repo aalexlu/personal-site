@@ -5,7 +5,7 @@ import Image from "react-bootstrap/image";
 import HeroProfile from "../components/HeroProfile";
 import Content from "../components/Content";
 
-import tomato from "../assets/images/tomato.png";
+import tomato from "../assets/images/tomato2.png";
 
 function HomePage(props) {
   return (
@@ -19,9 +19,9 @@ function HomePage(props) {
       <Content>
         <p>
           {" "}
-          Hello! I'm Alex, a developer based in the Bay Area who simply loves{" "}
+          Hello! I'm Alex, a developer based in the Bay Area who loves to{" "}
           <a href="/work" id="linkid">
-            building.
+            build.
           </a>{" "}
           I am a sophomore studying Computer Science and Linguistics at UC
           Berkeley, and the intersection between tech, business, and design
@@ -46,8 +46,8 @@ function HomePage(props) {
           here.
         </p> */}
         <p>
-          If I'm not studying or working my computer, chances are that I'm
-          cycling, 3D modeling, or spending time with my cat,{" "}
+          When I am not studying or writing code, chances are that I'm cycling
+          around campus, 3D modeling, or spending time with my cat,{" "}
           <a href="/" id="linkid-tomatotext">
             Tomato.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             <Image src={tomato} className="a-tomato" id="linkid-tomatoimage" />
