@@ -12,6 +12,7 @@ code {
     monospace;
 } */
 
+/* ALL PAGES */
 #nav-link {
   transition: transform 250ms;
   display: inline-block;
@@ -22,37 +23,45 @@ code {
   color: #4a685a;
 }
 
-.a-card {
-  margin: 0px;
-  padding: 0px 0px 100px 0px;
+.a-page {
+  background-color: #fafff2;
+  /* #fafff2; */
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 20px;
 }
 
-.a-card-image {
-  border-radius: 20px;
-  width: 300px;
-  height: 300px;
-  box-shadow: 0px 4px 8px 0px #ccc;
-}
-
-.a-card-info {
-  color: #aeaca5;
-  font-weight: 300;
-  margin-top: 10px;
-  min-height: 100px;
-}
-
-.a-card-title {
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0px;
+.a-content {
+  margin-bottom: 80px;
   color: #62625b;
+  line-height: 30px;
+  font-weight: 400;
 }
 
-.a-card-subtitle {
-  font-size: 16px;
-  margin: 0px;
+#linkid {
+  color: #f5a0a0;
+  text-decoration: none;
+  border-bottom: 1px solid #f5a0a0;
+  padding-bottom: 0.15em;
 }
 
+#linkid:hover {
+  color: #f5a0a0;
+  cursor: pointer;
+  text-decoration: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f5a0a0' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.2em;
+}
+
+/*HERO COMPONENT*/
 .a-entire-hero {
   padding-top: 55px;
   padding-bottom: 20px;
@@ -80,43 +89,7 @@ code {
   color: #aeaca5;
 }
 
-.success-msg {
-  color: #57a773;
-  padding: 10px 15px;
-}
-
-.err-msg {
-  color: #985959;
-  padding: 10px 15px;
-}
-
-.white {
-  color: white;
-}
-
-.a-page {
-  background-color: #fafff2;
-  /* #fafff2; */
-  font-family: "Poppins", sans-serif;
-  height: 100%;
-  position: relative;
-  min-height: 100vh;
-  overflow: hidden;
-  display: block;
-  padding-bottom: 20px;
-}
-
-.a-content {
-  padding: 0px 0px 0px 0px;
-  color: #62625b;
-  line-height: 30px;
-  font-weight: 400;
-}
-
-.a-carousel {
-  padding: 0px 0px 100px 0px;
-}
-
+/*FOOTER*/
 .a-footer {
   /* margin-top: 50px;
   margin-bottom: 0px !important; */
@@ -143,57 +116,57 @@ a.social:hover {
   fill: #4a685a;
 }
 
-.a-document {
-  padding: 0px 0px 100px 0px;
+/*ABOUT PAGE*/
+.a-profile {
+  width: 150px;
+  height: 150px;
+  /* margin-right: 160px; */
+  margin-top: 20px;
 }
 
-.a-resume {
-  max-width: 1000px;
+.a-profile-entire-hero {
+  padding-top: 55px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.a-tomato {
+  width: 50px;
   height: auto;
+  transform: scale(0, 0);
+  transition: 1s;
 }
 
-.a-link {
-  color: #f5a0a0;
+#linkid-tomatoimage {
+  height: 20px;
+  width: auto;
 }
 
-#linkid {
-  color: #f5a0a0;
+#linkid-tomatotext {
+  color: #62625b;
   text-decoration: none;
-  border-bottom: 1px solid #f5a0a0;
-  padding-bottom: 0.15em;
 }
 
-#linkid:hover {
-  color: #f5a0a0;
-  cursor: pointer;
+#linkid-tomatotext:hover #linkid-tomatoimage {
+  transform: scale(2, 2);
+}
+
+/* #linkid-modelimage {
+  height: 1px;
+  width: auto;
+}
+
+#linkid-modeltext {
+  color: #62625b;
   text-decoration: none;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f5a0a0' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-  background-position: bottom;
-  background-repeat: repeat-x;
-  background-size: 20%;
-  border-bottom: 0;
-  padding-bottom: 0.2em;
 }
 
-#linkid2 {
-  color: #61645e;
-  text-decoration: none;
-  border-bottom: 1px solid #4a685a;
-  padding-bottom: 0.15em;
-}
+#linkid-modeltext:hover ~ #linkid-modelimage {
+  transform: scale(40, 40);
+  margin-top: 70px;
+}*/
 
-#linkid2:hover {
-  color: #61645e;
-  cursor: pointer;
-  text-decoration: none;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%234a685a' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-  background-position: bottom;
-  background-repeat: repeat-x;
-  background-size: 20%;
-  border-bottom: 0;
-  padding-bottom: 0.2em;
-}
-
+/*WORK PAGE*/
 .a-slider {
   width: 300px;
   height: 300px;
@@ -234,7 +207,115 @@ a.social:hover {
   bottom: -50px;
 }
 
-/* .carousel-caption a {
+/*RESUME PAGE*/
+.a-document {
+  /* padding: 0px 0px 100px 0px; */
+  margin-bottom: 100px;
+}
+
+.a-resume {
+  max-width: 800px;
+  height: auto;
+}
+
+.a-link {
+  color: #f5a0a0;
+}
+
+#linkid-resume {
+  color: #61645e;
+  text-decoration: none;
+  border-bottom: 1px solid #4a685a;
+  padding-bottom: 0.15em;
+}
+
+#linkid-resume:hover {
+  color: #61645e;
+  cursor: pointer;
+  text-decoration: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%234a685a' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.2em;
+}
+
+/*CONTACT PAGE*/
+.icon-contact {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+#linkid-contact {
+  color: #f5a0a0;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 0;
+  padding-bottom: 0.2em;
+}
+
+#linkid-contact:hover {
+  color: #aeaca5;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 0;
+  padding-bottom: 0.2em;
+}
+
+/*OLD CAROUSEL*/
+/* .a-card {
+  margin: 0px;
+  padding: 0px 0px 100px 0px;
+}
+
+.a-card-image {
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 4px 8px 0px #ccc;
+}
+
+.a-card-info {
+  color: #aeaca5;
+  font-weight: 300;
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.a-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+  color: #62625b;
+}
+
+.a-card-subtitle {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.a-carousel {
+  padding: 0px 0px 100px 0px;
+}*/
+
+/*OLD CONTACT PAGE*/
+/* .success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #985959;
+  padding: 10px 15px;
+}
+
+.white {
+  color: white;
+}
+
+.carousel-caption a {
   color: #62626b !important;
   text-align: left;
 }
@@ -244,4 +325,16 @@ a.social:hover {
   font-size: 28px;
   font-weight: 300;
   text-align: left;
+} */
+
+/*COOL HOVER ENLARGE*/
+/* .a-tomato {
+  width: 50px;
+  height: auto;
+  transform: scale(1, 1);
+  transition: 1s;
+}
+
+.a-tomato:hover {
+  transform: scale(1.5, 1.5);
 } */

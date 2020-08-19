@@ -44,7 +44,7 @@ class App extends Component {
         subTitle: "Download Here",
       },
       contact: {
-        title: "let's connect",
+        title: "get in touch~",
       },
     };
   }

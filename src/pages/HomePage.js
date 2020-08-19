@@ -1,23 +1,31 @@
 import React from "react";
+import Image from "react-bootstrap/image";
 
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
+import HeroProfile from "../components/HeroProfile";
 import Content from "../components/Content";
+
+import tomato from "../assets/images/tomato.png";
 
 function HomePage(props) {
   return (
     <div>
-      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+      <HeroProfile
+        title={props.title}
+        subTitle={props.subTitle}
+        text={props.text}
+      />
 
       <Content>
         <p>
           {" "}
-          Hello! I'm Alex, a web and mobile developer based in the Bay Area who
-          simply loves{" "}
+          Hello! I'm Alex, a developer based in the Bay Area who simply loves{" "}
           <a href="/work" id="linkid">
             building.
           </a>{" "}
-          I am a sophomore studying Computer Science at UC Berkeley, and the
-          intersection between tech, business, and design excites me!
+          I am a sophomore studying Computer Science and Linguistics at UC
+          Berkeley, and the intersection between tech, business, and design
+          excites me!
           {/* mention linguistics? */}
         </p>
         <p>
@@ -25,7 +33,8 @@ function HomePage(props) {
           <a href="https://calhacks.io" id="linkid">
             Cal Hacks
           </a>{" "}
-          team, working on side projects, & looking for future internships.
+          team, exploring through side projects, and looking for future
+          internships.
           {/* usually
           running the world's largest collegiate hackathon. With COVID-19 we are
           redirecting our efforts toward other initiatives so be on the lookout! */}
@@ -38,7 +47,11 @@ function HomePage(props) {
         </p> */}
         <p>
           If I'm not studying or working my computer, chances are that I'm
-          cycling, 3D modeling, or spending time with my cat, Tomato.{" "}
+          cycling, 3D modeling, or spending time with my cat,{" "}
+          <a href="/" id="linkid-tomatotext">
+            Tomato.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <Image src={tomato} className="a-tomato" id="linkid-tomatoimage" />
+          </a>
           {/* it would be cool to pop in images for each word clicked on! */}
         </p>
         <p>Welcome to my website ~ feel free to take a look around! </p>
