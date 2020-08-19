@@ -1,12 +1,12 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-import dosage from "../assets/images/dosage-wide.png";
-import website from "../assets/images/website-wide.png";
-import questions from "../assets/images/questions-wide.png";
-import gitlet from "../assets/images/gitlet-wide.png";
-import enigma from "../assets/images/enigma-wide.png";
-import loa from "../assets/images/loa-wide.png";
+import dosage from "../assets/images-work/dosage-wide.png";
+import website from "../assets/images-work/website-wide.png";
+import questions from "../assets/images-work/questions-wide.png";
+import gitlet from "../assets/images-work/gitlet-wide.png";
+import enigma from "../assets/images-work/enigma-wide.png";
+import loa from "../assets/images-work/loa-wide.png";
 
 class Slider extends React.Component {
   render() {

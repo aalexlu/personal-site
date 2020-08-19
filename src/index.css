@@ -105,6 +105,10 @@ code {
   bottom: 0;
   width: 100%;
   color: #aeaca5;
+
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
 }
 
 .icon {
