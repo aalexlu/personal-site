@@ -23,7 +23,7 @@ class Slider extends React.Component {
         <Carousel.Item>
           <img className="d-block w-100" src={website} alt="Website" />
           <Carousel.Caption>
-            <a href="https://www.alexandralu.com" id="linkid">
+            <a href="https://gatsby-portfolio-515.web.app/" id="linkid">
               View
             </a>
           </Carousel.Caption>

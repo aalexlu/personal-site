@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1050971695fb327d701b8f9531612701",
+    "revision": "d29c3c144ab3621e1ffb0a5559827c27",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "d09d9f36f56faf1e1243",
+    "revision": "e730871b29ff5e422ea0",
     "url": "/static/css/main.3799d991.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.17eb3990.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d09d9f36f56faf1e1243",
-    "url": "/static/js/main.93ceca9e.chunk.js"
+    "revision": "e730871b29ff5e422ea0",
+    "url": "/static/js/main.732aba57.chunk.js"
   },
   {
     "revision": "766df7dbb5392e1314ed",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/email.b6391cfa.svg"
   },
   {
-    "revision": "7ad45c195551d97c1e8d2ad2c715d64f",
-    "url": "/static/media/enigma-wide.7ad45c19.png"
+    "revision": "849b4d575f7eb2b15321485d454785ab",
+    "url": "/static/media/enigma-wide.849b4d57.png"
   },
   {
     "revision": "c7e5652ea15141dc955292dcdd0636a2",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.036a3984.svg"
   },
   {
-    "revision": "7e37e1f1929f09d8b8302063cd18a5af",
-    "url": "/static/media/loa-wide.7e37e1f1.png"
+    "revision": "fe9f71ff78acd67987ef8857afaf9d97",
+    "url": "/static/media/loa-wide.fe9f71ff.png"
   },
   {
     "revision": "bd87e059772663e216e746bbd54cde6f",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/questions-wide.2d41b8f9.png"
   },
   {
-    "revision": "b65c20abf68fcdf20b95772c2325bd49",
-    "url": "/static/media/research-wide.b65c20ab.png"
+    "revision": "45d6a31a26cc81605e07c8e4681c6025",
+    "url": "/static/media/research-wide.45d6a31a.png"
   },
   {
     "revision": "c7da6ca021f173052ec3cabc8d49417d",
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/tomato2.b7ea483c.png"
   },
   {
-    "revision": "854ad90d27e35c3b4ce8f5457e753c95",
-    "url": "/static/media/website-wide.854ad90d.png"
+    "revision": "0e500908d1423f4e73416f627e0e77fc",
+    "url": "/static/media/website-wide.0e500908.png"
   }
 ]);
