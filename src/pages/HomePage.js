@@ -24,9 +24,10 @@ function HomePage(props) {
             build.
           </a>{" "}
           I am a sophomore studying Computer Science and Linguistics at UC
-          Berkeley, and the intersection between tech, business, and design
-          excites me!
-          {/* mention linguistics? */}
+          Berkeley, and the possibilities of making a large social impact
+          through technology excites me!
+          {/* Berkeley, and the intersection between tech, business, and design
+          excites me! */}
         </p>
         <p>
           Currently, I am working as a director on the{" "}
