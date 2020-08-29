@@ -23,7 +23,7 @@ class Slider extends React.Component {
         <Carousel.Item>
           <img className="d-block w-100" src={website} alt="Website" />
           <Carousel.Caption>
-            <a href="https://gatsby-portfolio-515.web.app/" id="linkid">
+            <a href="https://gatsby-portfolio-515.web.app/" id="linkid-view">
               View
             </a>
           </Carousel.Caption>
@@ -31,7 +31,7 @@ class Slider extends React.Component {
         <Carousel.Item>
           <img className="d-block w-100" src={questions} alt="Questions" />
           <Carousel.Caption>
-            <a href="https://devpost.com/software/questions" id="linkid">
+            <a href="https://devpost.com/software/questions" id="linkid-view">
               View
             </a>
           </Carousel.Caption>
@@ -40,7 +40,7 @@ class Slider extends React.Component {
         <Carousel.Item>
           <img className="d-block w-100" src={gitlet} alt="Gitlet" />
           <Carousel.Caption>
-            <a href="mailto:alu@berkeley.edu" id="linkid">
+            <a href="mailto:alu@berkeley.edu" id="linkid-reqcode">
               Request code
             </a>
           </Carousel.Caption>
@@ -49,7 +49,7 @@ class Slider extends React.Component {
         <Carousel.Item>
           <img className="d-block w-100" src={enigma} alt="Enigma" />
           <Carousel.Caption>
-            <a href="mailto:alu@berkeley.edu" id="linkid">
+            <a href="mailto:alu@berkeley.edu" id="linkid-reqcode">
               Request code
             </a>
           </Carousel.Caption>
@@ -58,7 +58,7 @@ class Slider extends React.Component {
         <Carousel.Item>
           <img className="d-block w-100" src={loa} alt="Line of Action" />
           <Carousel.Caption>
-            <a href="mailto:alu@berkeley.edu" id="linkid">
+            <a href="mailto:alu@berkeley.edu" id="linkid-reqcode">
               Request code
             </a>
           </Carousel.Caption>

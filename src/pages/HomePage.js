@@ -31,7 +31,7 @@ function HomePage(props) {
         </p>
         <p>
           Currently, I am working as a director on the{" "}
-          <a href="https://calhacks.io" id="linkid">
+          <a href="https://calhacks.io" id="linkid-longer">
             Cal Hacks
           </a>{" "}
           team, where we're striving to form a community that fosters learning
@@ -40,7 +40,11 @@ function HomePage(props) {
           <a href="https://calhacks.io/cubstart" id="linkid">
             course,
           </a>{" "}
-          along with our Hack Month initiative!
+          along with our{" "}
+          <a href="https://hackmonth.calhacks.io" id="linkid-longer">
+            Hack Month
+          </a>{" "}
+          initiative!
           {/* usually
           running the world's largest collegiate hackathon. With COVID-19 we are
           redirecting our efforts toward other initiatives so be on the lookout! */}
@@ -53,7 +57,7 @@ function HomePage(props) {
         </p> */}
         <p>
           When I am not studying or writing code, chances are that I'm cycling
-          around campus, 3D modeling, or spending time with my cat,{" "}
+          around campus, 3D modeling, or spending time with{" "}
           <a href="/" id="linkid-tomatotext">
             Tomato.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             <Image src={tomato} className="a-tomato" id="linkid-tomatoimage" />
