@@ -9,7 +9,7 @@ import linkedin from "../assets/logos/linkedin.svg";
 import github from "../assets/logos/github.svg";
 import facebook from "../assets/logos/facebook.svg";
 import email from "../assets/logos/email.svg";
-import calendly from "../assets/logos/calendly.svg";
+// import calendly from "../assets/logos/calendly.svg";
 
 function Footer() {
   let goodbye = "Thanks for stopping by! .";
@@ -31,9 +31,9 @@ function Footer() {
             <a href="mailto:alu@berkeley.edu" className="social">
               <Image src={email} className="icon" />
             </a>
-            <a href="https://calendly.com/alexlu/connect" className="social">
+            {/* <a href="https://calendly.com/alexlu/connect" className="social">
               <Image src={calendly} className="icon" />
-            </a>
+            </a> */}
           </Col>
           <Col className="p-1 d-flex justify-content-end" md={3} sm={12}>
             {goodbye} <Emoji symbol="👋" />

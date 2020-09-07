@@ -16,7 +16,7 @@ function HeroLink(props) {
                 className="a-hero-quote"
                 id="linkid-resume"
                 href={
-                  "https://drive.google.com/file/d/1MllF6Ssndqby7IoCC6k9GpSeNyPHNCdl/view?usp=sharing"
+                  "https://drive.google.com/file/d/1fJ3vFxxixwvIr4WFAOMcwVn12BcPGio8/view?usp=sharing"
                 }
               >
                 {props.subTitle}

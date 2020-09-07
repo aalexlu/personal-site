@@ -8,7 +8,7 @@ import linkedin from "../assets/logos/linkedin.svg";
 import github from "../assets/logos/github.svg";
 import facebook from "../assets/logos/facebook.svg";
 import email from "../assets/logos/email.svg";
-import calendly from "../assets/logos/calendly.svg";
+// import calendly from "../assets/logos/calendly.svg";
 
 function ContactPage2(props) {
   return (
@@ -44,13 +44,13 @@ function ContactPage2(props) {
         <a href="mailto:name@domain" id="linkid-contact">
           Email: alu@berkeley.edu
         </a>
-        <p> </p>
+        {/* <p> </p>
         <a href="https://calendly.com/alexlu/connect">
           <Image src={calendly} className="icon-contact" />
         </a>
         <a href="https://calendly.com/alexlu/connect" id="linkid-contact">
           Calendly: https://calendly.com/alexlu/connect
-        </a>
+        </a> */}
       </Content>
     </div>
   );
