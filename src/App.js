@@ -27,17 +27,17 @@ class App extends Component {
       home: {
         title: "alexandra lu",
         subTitle: "“Do what you can, with what you have, where you are.”",
-        text: "-Theodore Roosevelt",
+        text: "-THEODORE ROOSEVELT",
       },
       work: {
         title: "projects",
         subTitle: "“Nothing will work unless you do.”",
-        text: "-Maya Angelou",
+        text: "-MAYA ANGELOU",
       },
       courses: {
         title: "courses",
         subTitle: "“The important thing is to not stop questioning.”",
-        text: "-Albert Einstein",
+        text: "-ALBERT EINSTEIN",
       },
       resume: {
         title: "resume",

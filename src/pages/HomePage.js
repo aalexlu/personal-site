@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "react-bootstrap/image";
+// import ScaleText from "react-scale-text";
 
 // import Hero from "../components/Hero";
 import HeroProfile from "../components/HeroProfile";
@@ -29,6 +30,7 @@ function HomePage(props) {
           {/* Berkeley, and the intersection between tech, business, and design
           excites me! */}
         </p>
+
         <p>
           Currently, I am working as a director on the{" "}
           <a href="https://calhacks.io" id="linkid-longer">
@@ -56,8 +58,8 @@ function HomePage(props) {
           here.
         </p> */}
         <p>
-          When I am not studying or writing code, chances are that I'm cycling
-          around campus, 3D modeling, or spending time with{" "}
+          When I am not studying, teaching, or writing code, chances are that
+          I'm cycling around campus, 3D modeling, or spending time with{" "}
           <a href="/" id="linkid-tomatotext">
             Tomato.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             <Image src={tomato} className="a-tomato" id="linkid-tomatoimage" />

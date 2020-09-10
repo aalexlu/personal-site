@@ -12,7 +12,7 @@ import email from "../assets/logos/email.svg";
 // import calendly from "../assets/logos/calendly.svg";
 
 function Footer() {
-  let goodbye = "Thanks for stopping by! .";
+  let goodbye = "THANKS FOR STOPPING BY! .";
 
   return (
     <footer className="a-footer">
