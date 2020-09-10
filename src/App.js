@@ -54,7 +54,7 @@ class App extends Component {
       <div className="a-page">
         <Router>
           <Container className="p-0" fluid={true}>
-            <Navbar className="border-bottom" bg="transparent" expand="lg">
+            <Navbar expand="lg">
               <Navbar.Brand> </Navbar.Brand>
               {/* previously alexandra lu */}
               <Navbar.Toggle
@@ -64,19 +64,19 @@ class App extends Component {
               <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
                   <Link className="nav-link" id="nav-link" to="/">
-                    About
+                    ABOUT
                   </Link>
                   <Link className="nav-link" id="nav-link" to="/work">
-                    Work
+                    WORK
                   </Link>
                   <Link className="nav-link" id="nav-link" to="/courses">
-                    Courses
+                    COURSES
                   </Link>
                   <Link className="nav-link" id="nav-link" to="/resume">
-                    Resume
+                    RESUME
                   </Link>
                   <Link className="nav-link" id="nav-link" to="/contact">
-                    Contact
+                    CONTACT
                   </Link>
                 </Nav>
               </Navbar.Collapse>
