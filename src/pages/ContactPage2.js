@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "react-bootstrap/image";
 
-import Hero from "../components/Hero";
+import Header from "../components/Header/Header";
 import Content from "../components/Content/Content";
 
 import linkedin from "../assets/logos/linkedin.svg";
@@ -13,7 +13,7 @@ import email from "../assets/logos/email.svg";
 function ContactPage2(props) {
   return (
     <div>
-      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+      <Header title={props.title} subTitle={props.subTitle} text={props.text} />
 
       <Content>
         {/* replace with icons and links and sendgrid */}

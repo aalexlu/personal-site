@@ -1,7 +1,12 @@
-/* REPLACED BY SCSS */
+$mainWhite: #ffffff;
+$navGreen: #27625b;
+$background: #f5f5f5;
+$linkGreen: #1f4f46;
+$mainPink: #f5a0a0;
+$mainGrey: #aeaca5;
 
 .navbar {
-  background-color: #ffffff;
+  background-color: $mainWhite;
   border: bottom;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
   min-height: 70px;
@@ -11,7 +16,7 @@
 #nav-link {
   transition: transform 250ms;
   display: inline-block;
-  color: #27625b;
+  color: $navGreen;
   transition: all 0.3s linear;
   font-size: 13px;
   padding: 0 35px 0 0;
@@ -22,7 +27,7 @@
 
 .a-page {
   /* background-color: #fafff2; */
-  background-color: #f5f5f5;
+  background-color: $background;
   /* #fafff2; */
   font-family: "Poppins", sans-serif;
   height: 100%;
@@ -34,15 +39,15 @@
 }
 
 #linkid {
-  color: #1f4f46;
+  color: $linkGreen;
   font-weight: 600;
   text-decoration: none;
-  /* border-bottom: 1px solid #1f4f46; */
+  /* border-bottom: 1px solid $linkGreen; */
   padding-bottom: 0.15em;
 }
 
 #linkid:hover {
-  color: #1f4f46;
+  color: $linkGreen;
   cursor: pointer;
   text-decoration: none;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f5a0a0' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
@@ -80,7 +85,7 @@
 }
 
 #linkid-tomatotext {
-  color: #1f4f46;
+  color: $linkGreen;
   text-decoration: none;
 }
 
@@ -89,7 +94,7 @@
 }
 
 #linkid-longer {
-  color: #1f4f46;
+  color: $linkGreen;
   font-weight: 600;
   text-decoration: none;
   /* border-bottom: 1px solid #3a4245; */
@@ -97,7 +102,7 @@
 }
 
 #linkid-longer:hover {
-  color: #1f4f46;
+  color: $linkGreen;
   cursor: pointer;
   text-decoration: none;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f5a0a0' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
@@ -107,21 +112,6 @@
   border-bottom: 0;
   padding-bottom: 0.2em;
 }
-
-/* #linkid-modelimage {
-  height: 1px;
-  width: auto;
-}
-
-#linkid-modeltext {
-  color: #62625b;
-  text-decoration: none;
-}
-
-#linkid-modeltext:hover ~ #linkid-modelimage {
-  transform: scale(40, 40);
-  margin-top: 70px;
-}*/
 
 /*WORK PAGE*/
 .a-slider {
@@ -136,7 +126,7 @@
 }
 
 .a-link {
-  color: #1f4f46;
+  color: $linkGreen;
 }
 
 /*CONTACT PAGE*/
@@ -147,7 +137,7 @@
 }
 
 #linkid-contact {
-  color: #aeaca5;
+  color: $mainGrey;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.3s linear;
@@ -157,85 +147,10 @@
 }
 
 #linkid-contact:hover {
-  color: #27625b;
+  color: $linkGreen;
   cursor: pointer;
   text-decoration: none;
   transform: translateY(-2px);
   border-bottom: 0;
   padding-bottom: 0.2em;
 }
-
-/*OLD CAROUSEL*/
-/* .a-card {
-  margin: 0px;
-  padding: 0px 0px 100px 0px;
-}
-
-.a-card-image {
-  border-radius: 20px;
-  width: 300px;
-  height: 300px;
-  box-shadow: 0px 4px 8px 0px #ccc;
-}
-
-.a-card-info {
-  color: #aeaca5;
-  font-weight: 300;
-  margin-top: 10px;
-  min-height: 100px;
-}
-
-.a-card-title {
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0px;
-  color: #62625b;
-}
-
-.a-card-subtitle {
-  font-size: 16px;
-  margin: 0px;
-}
-
-.a-carousel {
-  padding: 0px 0px 100px 0px;
-}*/
-
-/*OLD CONTACT PAGE*/
-/* .success-msg {
-  color: #57a773;
-  padding: 10px 15px;
-}
-
-.err-msg {
-  color: #985959;
-  padding: 10px 15px;
-}
-
-.white {
-  color: white;
-}
-
-.carousel-caption a {
-  color: #62626b !important;
-  text-align: left;
-}
-
-.carousel-caption p {
-  color: #aeaca5;
-  font-size: 28px;
-  font-weight: 300;
-  text-align: left;
-} */
-
-/*COOL HOVER ENLARGE*/
-/* .a-tomato {
-  width: 50px;
-  height: auto;
-  transform: scale(1, 1);
-  transition: 1s;
-}
-
-.a-tomato:hover {
-  transform: scale(1.5, 1.5);
-} */

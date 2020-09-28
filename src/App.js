@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/container";
 import Navbar from "react-bootstrap/navbar";
 import Nav from "react-bootstrap/nav";
-// import "./App.css";
+import "./index.scss";
 
 import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage";

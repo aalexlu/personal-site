@@ -5,7 +5,9 @@ import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
 import Image from "react-bootstrap/image";
 
-import profile from "../assets/images/profile3.png";
+import profile from "../../assets/images/profile3.png";
+import "../Header/Header.scss";
+import "./HeaderProfile.scss";
 
 function HeroProfile(props) {
   return (

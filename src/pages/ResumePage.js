@@ -1,12 +1,12 @@
 import React from "react";
 
-import HeroLink from "../components/HeroLink";
+import HeaderResume from "../components/HeaderResume/HeaderResume";
 import Document from "../components/Document/Document";
 
 function ResumePage(props) {
   return (
     <div className="a-document">
-      <HeroLink title={props.title} subTitle={props.subTitle} />
+      <HeaderResume title={props.title} subTitle={props.subTitle} />
       <Document />
     </div>
   );

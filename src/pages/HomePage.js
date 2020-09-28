@@ -3,7 +3,7 @@ import Image from "react-bootstrap/image";
 // import ScaleText from "react-scale-text";
 
 // import Hero from "../components/Hero";
-import HeroProfile from "../components/HeroProfile";
+import HeaderProfile from "../components/HeaderProfile/HeaderProfile";
 import Content from "../components/Content/Content";
 
 import tomato from "../assets/images/tomato2.png";
@@ -11,7 +11,7 @@ import tomato from "../assets/images/tomato2.png";
 function HomePage(props) {
   return (
     <div>
-      <HeroProfile
+      <HeaderProfile
         title={props.title}
         subTitle={props.subTitle}
         text={props.text}

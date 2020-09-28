@@ -1,0 +1,74 @@
+@import "../../index.scss";
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #f5a0a0;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #f5a0a0;
+}
+
+.carousel-caption {
+  top: auto;
+  bottom: 0px;
+  transform: translateX(15%);
+  /* text-align: left; */
+}
+
+.carousel-caption a {
+  color: #f5a0a0;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #cfdbd3;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #cfdbd3;
+}
+
+.carousel .carousel-indicators {
+  bottom: -50px;
+}
+
+#linkid-reqcode {
+  color: #1f4f46;
+  text-decoration: none;
+  border-bottom: 1px solid #1f4f46;
+  padding-bottom: 0.15em;
+}
+
+#linkid-reqcode:hover {
+  color: #1f4f46;
+  cursor: pointer;
+  text-decoration: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f5a0a0' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 10%;
+  border-bottom: 0;
+  padding-bottom: 0.2em;
+}
+
+#linkid-view {
+  color: #1f4f46;
+  text-decoration: none;
+  border-bottom: 1px solid #1f4f46;
+  padding-bottom: 0.15em;
+}
+
+#linkid-view:hover {
+  color: #1f4f46;
+  cursor: pointer;
+  text-decoration: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23f5a0a0' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 33%;
+  border-bottom: 0;
+  padding-bottom: 0.2em;
+}

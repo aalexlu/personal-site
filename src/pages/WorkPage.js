@@ -1,13 +1,13 @@
 import React from "react";
 
 // import Carousel from "../components/Carousel";
-import Hero from "../components/Hero";
-import Slider from "../components/Slider";
+import Header from "../components/Header/Header";
+import Slider from "../components/Slider/Slider";
 
 function WorkPage(props) {
   return (
     <div className="a-carousel">
-      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+      <Header title={props.title} subTitle={props.subTitle} text={props.text} />
 
       <Slider />
       {/* <Carousel /> */}

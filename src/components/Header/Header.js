@@ -4,7 +4,9 @@ import Container from "react-bootstrap/container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
 
-function Hero(props) {
+import "./Header.scss";
+
+function Header(props) {
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
       <Container fluid={true}>
@@ -24,4 +26,4 @@ function Hero(props) {
   );
 }
 
-export default Hero;
+export default Header;

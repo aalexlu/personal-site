@@ -4,7 +4,10 @@ import Container from "react-bootstrap/container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
 
-function HeroLink(props) {
+import "../Header/Header.scss";
+import "./HeaderResume.scss";
+
+function HeaderResume(props) {
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
       <Container fluid={true}>
@@ -32,4 +35,4 @@ function HeroLink(props) {
   );
 }
 
-export default HeroLink;
+export default HeaderResume;

@@ -3,7 +3,7 @@ import Form from "react-bootstrap/form";
 import Button from "react-bootstrap/button";
 import Axios from "axios";
 
-import Hero from "../components/Hero";
+import Header from "../components/Header/Header";
 import Content from "../components/Content/Content";
 
 class ContactPage extends Component {
@@ -64,7 +64,7 @@ class ContactPage extends Component {
   render() {
     return (
       <div>
-        <Hero title={this.props.title} />
+        <Header title={this.props.title} />
 
         <Content>
           <Form onSubmit={this.handleSubmit}>

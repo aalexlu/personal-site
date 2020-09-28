@@ -1,12 +1,12 @@
 import React from "react";
 
-import Hero from "../components/Hero";
+import Header from "../components/Header/Header";
 import Content from "../components/Content/Content";
 
 function CoursesPage(props) {
   return (
     <div>
-      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+      <Header title={props.title} subTitle={props.subTitle} text={props.text} />
 
       <Content>
         <p>CS61A: Structure and Interpretation of Computer Programs</p>
