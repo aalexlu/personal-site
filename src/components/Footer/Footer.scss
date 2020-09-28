@@ -1,0 +1,34 @@
+/*FOOTER*/
+.a-footer {
+  /* margin-top: 50px;
+  margin-bottom: 0px !important; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #aeaca5;
+
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  font-size: 13px;
+
+  background-color: #ffffff;
+  min-height: 50px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+a.social {
+  margin-left: 1.2rem;
+  transition: transform 250ms;
+  transition: all 0.3s linear;
+  display: inline-block;
+  fill: #aeaca5;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+  fill: #4a685a;
+}

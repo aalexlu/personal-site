@@ -4,7 +4,7 @@ import Image from "react-bootstrap/image";
 
 // import Hero from "../components/Hero";
 import HeroProfile from "../components/HeroProfile";
-import Content from "../components/Content";
+import Content from "../components/Content/Content";
 
 import tomato from "../assets/images/tomato2.png";
 

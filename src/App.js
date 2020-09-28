@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/navbar";
 import Nav from "react-bootstrap/nav";
 // import "./App.css";
 
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage";
 import WorkPage from "./pages/WorkPage";
 import CoursesPage from "./pages/CoursesPage";
@@ -55,7 +55,7 @@ class App extends Component {
         <Router>
           <Container className="p-0" fluid={true}>
             <Navbar expand="lg">
-              <Navbar.Brand> </Navbar.Brand>
+              <Navbar.Brand></Navbar.Brand>
               {/* previously alexandra lu */}
               <Navbar.Toggle
                 className="border-0"

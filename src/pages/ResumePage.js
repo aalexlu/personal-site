@@ -1,7 +1,7 @@
 import React from "react";
 
 import HeroLink from "../components/HeroLink";
-import Document from "../components/Document";
+import Document from "../components/Document/Document";
 
 function ResumePage(props) {
   return (

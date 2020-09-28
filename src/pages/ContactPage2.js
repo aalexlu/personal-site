@@ -2,7 +2,7 @@ import React from "react";
 import Image from "react-bootstrap/image";
 
 import Hero from "../components/Hero";
-import Content from "../components/Content";
+import Content from "../components/Content/Content";
 
 import linkedin from "../assets/logos/linkedin.svg";
 import github from "../assets/logos/github.svg";

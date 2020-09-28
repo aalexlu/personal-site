@@ -2,14 +2,16 @@ import React from "react";
 import Container from "react-bootstrap/container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
-import Emoji from "../components/Emoji/Emoji";
+import Emoji from "../../components/Emoji/Emoji";
 import Image from "react-bootstrap/image";
 
-import linkedin from "../assets/logos/linkedin.svg";
-import github from "../assets/logos/github.svg";
-import facebook from "../assets/logos/facebook.svg";
-import email from "../assets/logos/email.svg";
-// import calendly from "../assets/logos/calendly.svg";
+import linkedin from "../../assets/logos/linkedin.svg";
+import github from "../../assets/logos/github.svg";
+import facebook from "../../assets/logos/facebook.svg";
+import email from "../../assets/logos/email.svg";
+// import calendly from "../../assets/logos/calendly.svg";
+
+import "./Footer.scss";
 
 function Footer() {
   let goodbye = "THANKS FOR STOPPING BY! .";

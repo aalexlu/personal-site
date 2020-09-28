@@ -2,7 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/container";
 import Row from "react-bootstrap/row";
 
-import resume from "../assets/images/resume.png";
+import resume from "../../assets/images/resume.png";
+import "./Document.scss";
 
 function Document() {
   return (

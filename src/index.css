@@ -45,21 +45,6 @@ code {
   padding-bottom: 20px;
 }
 
-.a-content {
-  margin-bottom: 80px;
-  color: #3a4245;
-  line-height: 30px;
-  font-weight: 400;
-
-  /* font-weight: 400;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 20px; */
-
-  font-weight: 400;
-  font-family: "Work Sans", sans-serif;
-  font-size: 16px;
-}
-
 #linkid {
   color: #1f4f46;
   font-weight: 600;
@@ -106,41 +91,6 @@ code {
   font-size: 13px;
   font-weight: 300;
   color: #aeaca5;
-}
-
-/*FOOTER*/
-.a-footer {
-  /* margin-top: 50px;
-  margin-bottom: 0px !important; */
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: #aeaca5;
-
-  font-weight: 400;
-  font-family: "Work Sans", sans-serif;
-  font-size: 13px;
-
-  background-color: #ffffff;
-  min-height: 50px;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-}
-
-a.social {
-  margin-left: 1.2rem;
-  transition: transform 250ms;
-  transition: all 0.3s linear;
-  display: inline-block;
-  fill: #aeaca5;
-}
-
-a.social:hover {
-  transform: translateY(-2px);
-  fill: #4a685a;
 }
 
 /*ABOUT PAGE*/
@@ -296,11 +246,6 @@ a.social:hover {
 .a-document {
   /* padding: 0px 0px 100px 0px; */
   margin-bottom: 100px;
-}
-
-.a-resume {
-  max-width: 800px;
-  height: auto;
 }
 
 .a-link {

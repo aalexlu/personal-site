@@ -3,6 +3,8 @@ import Container from "react-bootstrap/container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/col";
 
+import "./Content.scss";
+
 function Content(props) {
   return (
     <Container className="a-content" fluid={true}>
