@@ -10,7 +10,7 @@ import facebook from "../assets/logos/facebook.svg";
 import email from "../assets/logos/email.svg";
 // import calendly from "../assets/logos/calendly.svg";
 
-function ContactPage2(props) {
+function ContactPage(props) {
   return (
     <div>
       <Header title={props.title} subTitle={props.subTitle} text={props.text} />
@@ -56,4 +56,4 @@ function ContactPage2(props) {
   );
 }
 
-export default ContactPage2;
+export default ContactPage;

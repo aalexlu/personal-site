@@ -6,11 +6,11 @@ import Nav from "react-bootstrap/nav";
 import "./index.scss";
 
 import Footer from "./components/Footer/Footer";
-import HomePage from "./pages/HomePage";
+import ProfilePage from "./pages/ProfilePage";
 import WorkPage from "./pages/WorkPage";
 import CoursesPage from "./pages/CoursesPage";
 import ResumePage from "./pages/ResumePage";
-import ContactPage2 from "./pages/ContactPage2";
+import ContactPage from "./pages/ContactPage";
 
 class App extends Component {
   constructor(props) {
@@ -86,7 +86,7 @@ class App extends Component {
               path="/"
               exact
               render={() => (
-                <HomePage
+                <ProfilePage
                   title={this.state.home.title}
                   subTitle={this.state.home.subTitle}
                   text={this.state.home.text}
@@ -125,7 +125,7 @@ class App extends Component {
             <Route
               path="/contact"
               render={() => (
-                <ContactPage2
+                <ContactPage
                   title={this.state.contact.title}
                   subTitle={this.state.contact.subTitle}
                 />

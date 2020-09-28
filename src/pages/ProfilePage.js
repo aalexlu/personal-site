@@ -8,7 +8,7 @@ import Content from "../components/Content/Content";
 
 import tomato from "../assets/images/tomato2.png";
 
-function HomePage(props) {
+function ProfilePage(props) {
   return (
     <div>
       <HeaderProfile
@@ -75,4 +75,4 @@ function HomePage(props) {
   );
 }
 
-export default HomePage;
+export default ProfilePage;
