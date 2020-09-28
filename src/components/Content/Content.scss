@@ -1,6 +1,8 @@
+@import "../../index.scss";
+
 .a-content {
   margin-bottom: 80px;
-  color: #3a4245;
+  color: $mainText;
   line-height: 30px;
   font-weight: 400;
 

@@ -1,3 +1,5 @@
+@import "../../index.scss";
+
 /*FOOTER*/
 .a-footer {
   /* margin-top: 50px;
@@ -5,13 +7,13 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: #aeaca5;
+  color: $mainGrey;
 
   font-weight: 400;
   font-family: "Work Sans", sans-serif;
   font-size: 13px;
 
-  background-color: #ffffff;
+  background-color: $mainWhite;
   min-height: 50px;
 }
 
@@ -25,10 +27,10 @@ a.social {
   transition: transform 250ms;
   transition: all 0.3s linear;
   display: inline-block;
-  fill: #aeaca5;
+  fill: $mainGrey;
 }
 
 a.social:hover {
   transform: translateY(-2px);
-  fill: #4a685a;
+  // fill: #4a685a;
 }
