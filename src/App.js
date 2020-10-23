@@ -47,7 +47,7 @@ class App extends Component {
       },
       teaching: {
         title: "teaching",
-        subTitle: "Teaching Material",
+        subTitle: "Teaching Material Created",
       },
       contact: {
         title: "get in touch~",
@@ -78,9 +78,9 @@ class App extends Component {
                   <Link className="nav-link" id="nav-link" to="/courses">
                     COURSES
                   </Link>
-                  <Link className="nav-link" id="nav-link" to="/teaching">
+                  {/* <Link className="nav-link" id="nav-link" to="/teaching">
                     TEACHING
-                  </Link>
+                  </Link> */}
                   <Link className="nav-link" id="nav-link" to="/resume">
                     RESUME
                   </Link>

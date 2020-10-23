@@ -10,6 +10,15 @@ function TeachingPage(props) {
 
       <Content>
         <p id="teachid">
+          <b>Cubstart Lab Sample</b>
+        </p>
+        <p>
+          <a href="https://berkeley.zoom.us/rec/share/o-GkOeoe_9o98j4421FbYN3SOcQ-BgQvnqPiImlXeH0fJ4SAKgp9bRN5gfxrSBv_.F5voj3tc-dUDdzRS" id="linkid-contact">
+            Multiple Views Lab Intro Recording
+          </a>
+        </p>
+
+        <p id="teachid">
           <b>Cubstart iOS Labs</b>
         </p>
         <p>
@@ -17,28 +26,42 @@ function TeachingPage(props) {
             href="https://www.notion.so/calhacks/iOS-Lab-3-Bullseye-3394d094003c4f3c981f25684c3429d2"
             id="linkid-contact"
           >
-            Bullseye Spec
+            Spec: Bullseye
+          </a>
+          <br></br>
+          <a
+            href="https://docs.google.com/presentation/d/1dg8KC9zlfKFL3idNMiqPyOKcctFOhwyOQqHpeZC1bio/edit?usp=sharing"
+            id="linkid-contact"
+          >
+            Slides: Waitlist Helper
+          </a>
+          <br></br>
+          <a
+            href="https://docs.google.com/presentation/d/1eTLCPx7rQeZrNcuXYe8QEZfUrxYUFAvmexKuf2tuz20/edit?usp=sharing"
+            id="linkid-contact"
+          >
+            Slides: Shopping List
           </a>
           <br></br>
           <a
             href="https://github.com/aalexlu/cubstart-junkies"
             id="linkid-contact"
           >
-            Junkies App
+            App: Junkies
           </a>
           <br></br>
           <a
             href="https://github.com/aalexlu/cubstart-bullseye"
             id="linkid-contact"
           >
-            Bullseye App
+            App: Bullseye
           </a>
           <br></br>
           <a
             href="https://github.com/aalexlu/cubstart-shoppinglist"
             id="linkid-contact"
           >
-            Shopping List App
+            App: Shopping List
           </a>
         </p>
 
