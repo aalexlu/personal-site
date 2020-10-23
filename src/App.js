@@ -10,6 +10,7 @@ import ProfilePage from "./pages/ProfilePage";
 import WorkPage from "./pages/WorkPage";
 import CoursesPage from "./pages/CoursesPage";
 import ResumePage from "./pages/ResumePage";
+import TeachingPage from "./pages/TeachingPage";
 import ContactPage from "./pages/ContactPage";
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
         { title: "Work", path: "/work" },
         { title: "Courses", path: "/courses" },
         { title: "Resume", path: "/resume" },
+        { title: "Teaching", path: "/teaching" },
         { title: "Contact", path: "/contact" },
       ],
       home: {
@@ -42,6 +44,10 @@ class App extends Component {
       resume: {
         title: "resume",
         subTitle: "Download Here",
+      },
+      teaching: {
+        title: "teaching",
+        subTitle: "Teaching Material",
       },
       contact: {
         title: "get in touch~",
@@ -71,6 +77,9 @@ class App extends Component {
                   </Link>
                   <Link className="nav-link" id="nav-link" to="/courses">
                     COURSES
+                  </Link>
+                  <Link className="nav-link" id="nav-link" to="/teaching">
+                    TEACHING
                   </Link>
                   <Link className="nav-link" id="nav-link" to="/resume">
                     RESUME
@@ -119,6 +128,15 @@ class App extends Component {
                 <ResumePage
                   title={this.state.resume.title}
                   subTitle={this.state.resume.subTitle}
+                />
+              )}
+            />
+            <Route
+              path="/teaching"
+              render={() => (
+                <TeachingPage
+                  title={this.state.teaching.title}
+                  subTitle={this.state.teaching.subTitle}
                 />
               )}
             />
