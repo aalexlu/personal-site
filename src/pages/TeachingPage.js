@@ -10,7 +10,7 @@ function TeachingPage(props) {
 
       <Content>
         <p id="teachid">
-          <b>Cubstart Lab Sample</b>
+          <b>Cubstart Lab Section Sample</b>
         </p>
         <p>
           <a href="https://berkeley.zoom.us/rec/share/o-GkOeoe_9o98j4421FbYN3SOcQ-BgQvnqPiImlXeH0fJ4SAKgp9bRN5gfxrSBv_.F5voj3tc-dUDdzRS" id="linkid-contact">
@@ -19,7 +19,7 @@ function TeachingPage(props) {
         </p>
 
         <p id="teachid">
-          <b>Cubstart iOS Labs</b>
+          <b>Cubstart Lab Content</b>
         </p>
         <p>
           <a
@@ -66,9 +66,13 @@ function TeachingPage(props) {
         </p>
 
         <p id="teachid">
-          <b>Cubstart iOS Videos</b>
+          <b>Cubstart Video Clips</b>
         </p>
         <p>
+          <a href="https://youtu.be/3zqXThFsOGI" id="linkid-contact">
+            Simulating Location
+          </a>
+          <br></br>
           <a href="https://youtu.be/FfRNWiWIQuE" id="linkid-contact">
             Adding Background Image to View Controller
           </a>
@@ -78,7 +82,7 @@ function TeachingPage(props) {
           </a>
           <br></br>
           <a href="https://youtu.be/kEBB1eQ8eUM" id="linkid-contact">
-            Multiple Views: Common Mistakes
+            Multiple Views: Things to Look Out For
           </a>
           <br></br>
           <a href="https://youtu.be/aqWx8bkguPo" id="linkid-contact">
