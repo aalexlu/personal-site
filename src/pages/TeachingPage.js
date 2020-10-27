@@ -19,7 +19,7 @@ function TeachingPage(props) {
         </p>
 
         <p id="teachid">
-          <b>Cubstart Lab Content</b>
+          <b>Lab Content</b>
         </p>
         <p>
           <a
@@ -66,7 +66,7 @@ function TeachingPage(props) {
         </p>
 
         <p id="teachid">
-          <b>Cubstart Video Clips</b>
+          <b>Video Clips</b>
         </p>
         <p>
           <a href="https://youtu.be/3zqXThFsOGI" id="linkid-contact">

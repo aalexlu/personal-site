@@ -12,6 +12,7 @@ import CoursesPage from "./pages/CoursesPage";
 import ResumePage from "./pages/ResumePage";
 import TeachingPage from "./pages/TeachingPage";
 import ContactPage from "./pages/ContactPage";
+import SymbolsPage from "./pages/SymbolsPage";
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class App extends Component {
         { title: "Resume", path: "/resume" },
         { title: "Teaching", path: "/teaching" },
         { title: "Contact", path: "/contact" },
+        { title: "Symbols", path: "/symbols" },
       ],
       home: {
         title: "alexandra lu",
@@ -51,6 +53,9 @@ class App extends Component {
       },
       contact: {
         title: "get in touch~",
+      },
+      symbols: {
+        title: "symbols",
       },
     };
   }
@@ -146,6 +151,14 @@ class App extends Component {
                 <ContactPage
                   title={this.state.contact.title}
                   subTitle={this.state.contact.subTitle}
+                />
+              )}
+            />
+            <Route
+              path="/symbols"
+              render={() => (
+                <SymbolsPage
+                  title={this.state.symbols.title}
                 />
               )}
             />
