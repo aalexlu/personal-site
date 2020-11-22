@@ -15,6 +15,12 @@ function SymbolsPage(props) {
         <p>
             ⟵ ⟶
         </p>
+        <p>
+            syllable: σ
+            unaffiliated mora: μ´
+            if rules identical for values of the same feature: α, β
+            for ALIGN constraint: ω
+        </p>
       </Content>
     </div>
   );
