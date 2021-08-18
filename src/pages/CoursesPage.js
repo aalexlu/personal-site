@@ -17,6 +17,15 @@ function CoursesPage(props) {
         <p>CS70: Discrete Mathematics and Probability Theory</p>
         <p>CS61C: Machine Structures</p>
         <p>LING111: Phonology</p>
+        <p>LING120: Syntax</p>
+        <p>CS170: Efficient Algorithms and Intractable Problems</p>
+        <p></p>
+        <p>–––– Upcoming in Fall 2022 ––––</p>
+        <p>CS161: Computer Security</p>
+        <p>CS162: Operating Systems and System Programming</p>
+        <p>Ling110: Phonetics</p>
+
+
       </Content>
     </div>
   );
