@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-import dosage from "../../assets/images-work/dosage-wide.png";
 import website from "../../assets/images-work/website-wide.png";
 import questions from "../../assets/images-work/questions-wide.png";
 import gitlet from "../../assets/images-work/gitlet-wide.png";
@@ -15,13 +14,6 @@ class Slider extends React.Component {
   render() {
     return (
       <Carousel>
-        <Carousel.Item>
-          <img className="d-block w-100" src={dosage} alt="Dosage" />
-          {/* <Carousel.Caption>
-            <h3>Dosage</h3>
-            <p>regulate & fine-tune dosage</p>
-          </Carousel.Caption> */}
-        </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={website} alt="Website" />
           <Carousel.Caption>

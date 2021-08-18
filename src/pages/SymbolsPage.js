@@ -11,15 +11,17 @@ function SymbolsPage(props) {
       <Content>
         <p>
             ← → ↑ ↓
-        </p>
-        <p>
+            <br></br>
             ⟵ ⟶
         </p>
         <p>
             syllable: σ
+            <br></br>
             unaffiliated mora: μ´
+            <br></br>
+            ALIGN constraint word: ω
+            <br></br>
             if rules identical for values of the same feature: α, β
-            for ALIGN constraint: ω
         </p>
       </Content>
     </div>

@@ -19,7 +19,7 @@ function HeaderResume(props) {
                 className="a-hero-quote"
                 id="linkid-resume"
                 href={
-                  "https://drive.google.com/file/d/1fJ3vFxxixwvIr4WFAOMcwVn12BcPGio8/view?usp=sharing"
+                  "https://drive.google.com/file/d/1YIogv03UZ9Q_AaFMzJbX0LVnIN4SMpqK/view?usp=sharing"
                 }
               >
                 {props.subTitle}
